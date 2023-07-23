@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<script defer src="main.bundle.js"></script></head>
+<body style="background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('./assets/images/fond.jpg');">
+
+    <section class="contenaire">
+        <p class="notication"></p>
+        <div class="limiteHaut">
+            <div class="limitContent">
+                <p class="limitTitle">LIMITE HAUTE</p>
+                <input class="limitNumber haute" value="5">
+            </div>
+        </div>
+        <div class="incrementContent">
+            <div class="ajustment gauche">
+                <p class="moins">-</p>
+                <input type="number" class="plus moinsInput" value="1">
+            </div>
+            <div class="currentValue">
+                <p></p>
+            </div>
+            <div class="ajustment droite">
+                <p class="moins">+</p>
+                <input type="number" class="plus plusInput" value="1">
+            </div>
+        </div>
+        <div class="result">
+            <p class="limiteBasseTitle">LIMITE BASSE</p>
+            <input class="limitNumber basse" value="-5">
+            <button class="reset">Reset</button>
+        </div>
+        <div class="clickArea">
+            <p class="clickAreaTitle">ZONE DE CLIC</p>
+            <div class="area">
+                <p>Clic gauche : incrémentation</p>
+                <p>Clic droite : décrémentation</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

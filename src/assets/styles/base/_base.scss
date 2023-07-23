@@ -1,0 +1,26 @@
+:root{
+    font-size: 62.5%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+@keyframes notification {
+    from {
+
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
